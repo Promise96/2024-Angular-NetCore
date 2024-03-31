@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/Users/sithembiso_sangweni/Documents/GitHub/2024-Angular-NetCore/DatingApp/API/API.csproj": {}
+    "C:\\Users\\promisema\\Documents\\GitHub\\2024-Angular-NetCore\\DatingApp\\API\\API.csproj": {}
   },
   "projects": {
-    "/Users/sithembiso_sangweni/Documents/GitHub/2024-Angular-NetCore/DatingApp/API/API.csproj": {
+    "C:\\Users\\promisema\\Documents\\GitHub\\2024-Angular-NetCore\\DatingApp\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sithembiso_sangweni/Documents/GitHub/2024-Angular-NetCore/DatingApp/API/API.csproj",
+        "projectUniqueName": "C:\\Users\\promisema\\Documents\\GitHub\\2024-Angular-NetCore\\DatingApp\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "/Users/sithembiso_sangweni/Documents/GitHub/2024-Angular-NetCore/DatingApp/API/API.csproj",
-        "packagesPath": "/Users/sithembiso_sangweni/.nuget/packages/",
-        "outputPath": "/Users/sithembiso_sangweni/Documents/GitHub/2024-Angular-NetCore/DatingApp/API/obj/",
+        "projectPath": "C:\\Users\\promisema\\Documents\\GitHub\\2024-Angular-NetCore\\DatingApp\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\promisema\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\promisema\\Documents\\GitHub\\2024-Angular-NetCore\\DatingApp\\API\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/sithembiso_sangweni/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\promisema\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -47,6 +53,10 @@
               "target": "Package",
               "version": "[8.0.3, )"
             },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
@@ -71,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
