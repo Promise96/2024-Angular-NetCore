@@ -12,9 +12,19 @@ using Microsoft.AspNetCore.Hosting;
 
 namespace API
 {
-    public class Program
+    class Program
     {
-        CreateH
+        static void Main(string[] args)
+        {
+            CreateHostBuilder(args).Build().Run();
+        }
+
+        public static IHostBuilder CreateHostBuilder(string[] args) =>
+            Host.CreateDefaultBuilder(args)
+                .ConfigureWebHostDefaults(webBuilder =>
+                {
+                    webBuilder.UseStartup<Startup>();
+                });
     }
 }
 
