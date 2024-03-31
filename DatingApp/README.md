@@ -4,6 +4,9 @@
 # source code link 
 https://github.com/tayabafridi/AyzProgramming-Dating-Application.git
 
+
+https://www.youtube.com/watch?v=OZGdKYzUYvU&list=PLjC4UKOOcfDQtElvsn1ZCAHatLtqDrTgQ
+
 1. dotnet CLI
 2. API Controllers anf Endpoint
 3. entity framework
